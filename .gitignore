@@ -1,0 +1,14 @@
+# build outputs (make)
+bfcert
+bfvi
+verify2
+bfsim
+bfstats
+*.dSYM/
+# regenerable intermediates (psi tables, LP files, search scratch)
+lp/
+*.new
+__pycache__/
+.venv
+# search logs written by the certificate search scripts
+results/search/
