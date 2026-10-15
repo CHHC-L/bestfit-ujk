@@ -4,6 +4,8 @@ Exactly verified Lyapunov certificates for the average-case waste of **Best Fit*
 discrete uniform distribution **U{j,k}** (bin capacity k, item sizes i.i.d. uniform on {1..j}): for which
 (j,k) is the expected waste O(1), and for which is it Θ(n)?
 
+Write-up: [Classifying the Expected Waste of Best Fit Bin Packing under U{j,k}](https://chhc-l.github.io/posts/bestfit-ujk/)
+
 Results (all backed by certificates in `certs/`):
 
 * the classification is complete for every k ≤ 25, including the seven pairs left open by
